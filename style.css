@@ -98,12 +98,11 @@ nav .btn span{
  }
 .about-wrapper{
     display: flex;
-    flex-wrap: wrap;
 }
 .about-text{
-    flex: 1 1 400px;
     margin: auto;
     padding: 10px ;
+    flex: 1 1 400px;
 
 }
 .about-img{
@@ -112,32 +111,11 @@ nav .btn span{
 .about-img img{
     display: block;
     max-width: 100%;
-    height: auto;
     object-fit: cover;
     padding: 10px;
 }
 #vet{
     padding: 50px 0;
-}
-.vet-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-}
-.vet-text{
-    flex: 11 1 400px;
-    margin: auto;
-    padding: 10px ;
-
-}
-.vet-img{
-    flex: 8 1 400px;
-}
-.vet-img img{
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
-    padding: 10px;
-    
 }
 
 .title-text{
@@ -164,7 +142,7 @@ nav .btn span{
 
 }
 .vet-img-1{
-    flex: 8 1 ;
+    flex: 5 1 ;
 }
 .vet-img-1 img{
     display: block;
@@ -206,6 +184,7 @@ nav .btn span{
 }
 #icon{
     padding: 50px 0;
+    background: image();
 }
 .i-wrapper{
     display: flex;
